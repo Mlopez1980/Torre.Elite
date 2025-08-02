@@ -1,0 +1,56 @@
+
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 80px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.apartamento {
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.disponible {
+  background-color: green;
+}
+
+.reservado {
+  background-color: hotpink;
+}
+
+.info-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+  width: 300px;
+}
+
+.info-box.hidden {
+  display: none;
+}
+
+#closeBtn {
+  float: right;
+  border: none;
+  background: red;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+  cursor: pointer;
+}
