@@ -1,14 +1,3 @@
-  <p className="mb-4 text-sm text-gray-700">Haz clic en un cuadro para ver los detalles del apartamento.</p>
-<div className="flex items-center gap-4 mb-4">
-  <div className="flex items-center gap-2">
-    <div className="w-4 h-4 bg-green-500"></div>
-    <span className="text-sm">Disponible</span>
-  </div>
-  <div className="flex items-center gap-2">
-    <div className="w-4 h-4 bg-pink-500"></div>
-    <span className="text-sm">Reservado</span>
-  </div>
-</div>
 
 const apartamentos = [
   { id: "1A", disponible: false, area: "82.95 m²", precio: "Reservado", habitaciones: 2, nivel: 1 },
