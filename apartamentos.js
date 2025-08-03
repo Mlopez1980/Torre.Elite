@@ -61,8 +61,3 @@ apartamentos.forEach(apto => {
   grid.appendChild(div);
 });
 
-<div className="overflow-x-auto">
-  <div className="grid grid-rows-5 gap-2 min-w-max">
-    {/* filas aquí */}
-  </div>
-</div>
