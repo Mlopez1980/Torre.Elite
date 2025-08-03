@@ -11,7 +11,8 @@ body {
   grid-template-columns: repeat(6, 80px);
   grid-gap: 10px;
   justify-content: center;
-  margin-top: 30px;
+  min-width: max-content;
+
 }
 
 .apartamento {
