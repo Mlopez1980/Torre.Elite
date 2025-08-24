@@ -2,7 +2,7 @@
 const apartamentos = [
   { id: "1A", disponible: false, area: "82.95 m²", precio: "Reservado", habitaciones: 2, nivel: 1 },
   { id: "1B", disponible: false, area: "81.75 m²", precio: "Reservado", habitaciones: 2, nivel: 1 },
-  { id: "1C", disponible: false, area: "45.997 m²", precio: "Reservado", habitaciones: 1, nivel: 1 },
+  { id: "1C", disponible: true, area: "45.997 m²", precio: "Reservado", habitaciones: 1, nivel: 1 },
   { id: "1D", disponible: false, area: "82.79 m²", precio: "Reservado", habitaciones: 2, nivel: 1 },
   { id: "1E", disponible: true, area: "82.79 m²", precio: "$189,129", habitaciones: 2, nivel: 1 },
   { id: "1F", disponible: false, area: "44.55 m²", precio: "Reservado", habitaciones: 1, nivel: 1 },
@@ -12,7 +12,7 @@ const apartamentos = [
   { id: "2C", disponible: false, area: "45.997 m²", precio: "Reservado", habitaciones: 1, nivel: 2 },
   { id: "2D", disponible: true, area: "82.79 m²", precio: "$193,240.50", habitaciones: 2, nivel: 2 },
   { id: "2E", disponible: true, area: "82.79 m²", precio: "$193,240.50", habitaciones: 2, nivel: 2 },
-  { id: "2F", disponible: true, area: "44.55 m²", precio: "$117,000", habitaciones: 1, nivel: 2 },
+  { id: "2F", disponible: false, area: "44.55 m²", precio: "$117,000", habitaciones: 1, nivel: 2 },
 
   { id: "3A", disponible: false, area: "82.95 m²", precio: "Reservado", habitaciones: 2, nivel: 3 },
   { id: "3B", disponible: false, area: "81.75 m²", precio: "Reservado", habitaciones: 2, nivel: 3 },
